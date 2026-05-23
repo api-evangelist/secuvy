@@ -1,0 +1,103 @@
+aid: secuvy
+name: Secuvy
+description: Secuvy is an AI data filtering and data security platform that combines data discovery, classification, data security posture management, privacy automation, and AI governance into a single product. The platform automates detection and classification of sensitive data across hybrid and multi-cloud environments and prevents regulated data from leaking into AI tools, assistants, and inference pipelines. Secuvy offers more than 250 connectors covering AWS, Azure, GCP, Microsoft 365, Salesforce, Slack, Jira, ServiceNow, Snowflake, Databricks, BigQuery, MongoDB, and on-premise systems like Windows File Servers, SharePoint, and NFS. Authentication options include OAuth, SAML, and API key based integration, and developers can build custom connectors against any system with a public API. Public API reference documentation was not located during research; technical detail is provided through Secuvy's sales and onboarding teams.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Secuvy
+  - Data Security
+  - Privacy
+  - PII Discovery
+  - DSPM
+  - AI Governance
+  - Classification
+  - Connectors
+  - Compliance
+  - Data Discovery
+url: https://raw.githubusercontent.com/api-evangelist/secuvy/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+apis:
+  - aid: secuvy:secuvy-platform
+    name: Secuvy Platform
+    description: AI-driven data security and privacy platform delivering data discovery, classification, DSPM, privacy automation, and AI governance through more than 250 connectors. The platform offers an open API framework and supports custom connectors for any system with a public API, but a public developer portal and API reference were not located during research.
+    humanURL: https://secuvy.ai/
+    tags:
+      - Data Discovery
+      - Classification
+      - DSPM
+      - AI Governance
+      - Privacy
+    properties:
+      - type: Website
+        url: https://secuvy.ai/
+      - type: Overview
+        url: https://secuvy.ai/overview/
+      - type: DataIntelligence
+        url: https://secuvy.ai/data-intelligence/
+      - type: AIGovernance
+        url: https://secuvy.ai/ai-and-llm-governance/
+      - type: AWSMarketplace
+        url: https://aws.amazon.com/marketplace/seller-profile?id=edd93f3e-2b2a-43e2-89d2-f8a8eae3e392
+    features:
+      - name: Data Discovery and Classification
+        description: Automated detection and classification of sensitive data across structured and unstructured sources.
+      - name: AI Data Leakage Control
+        description: Prevents regulated data from being exposed in AI tools, assistants, and inference pipelines.
+      - name: Data Security Posture Management
+        description: Quantifies and mitigates risk across storage, SaaS, and cloud platforms.
+      - name: AI and LLM Governance
+        description: Enables enterprises to adopt AI without exposing sensitive data at inference time.
+      - name: Privacy Automation
+        description: Continuous monitoring and compliance readiness across regulations.
+      - name: 250+ Connectors
+        description: Out-of-the-box connectors for cloud, SaaS, data platforms, and on-premise sources.
+      - name: Custom Connectors
+        description: Build custom connectors against any system with a public API using the open framework.
+    useCases:
+      - name: PII Discovery
+        description: Scan cloud, SaaS, and on-premise stores for personally identifiable information.
+      - name: AI Pipeline Filtering
+        description: Filter sensitive data out of prompts and training data flowing into AI systems.
+      - name: DSPM for Cloud
+        description: Identify and remediate misconfigurations and exposures across AWS, Azure, and GCP.
+      - name: Privacy Compliance
+        description: Automate evidence collection and monitoring for GDPR, CCPA, and similar regimes.
+      - name: Insider Risk Reduction
+        description: Identify oversharing and risky access to regulated data in collaboration tools.
+    integrations:
+      - name: AWS
+      - name: Azure
+      - name: Google Cloud
+      - name: Microsoft 365
+      - name: Salesforce
+      - name: Slack
+      - name: Jira
+      - name: ServiceNow
+      - name: Snowflake
+      - name: Databricks
+      - name: BigQuery
+      - name: MongoDB
+      - name: SharePoint
+      - name: Windows File Servers
+      - name: NFS
+    authentication:
+      - type: OAuth
+        description: OAuth-based authentication for connecting cloud and SaaS systems.
+      - type: SAML
+        description: SAML single sign-on supported for enterprise identity federation.
+      - type: API Key
+        description: API key-based authentication for API-driven integrations.
+common:
+  - type: Website
+    url: https://secuvy.ai/
+  - type: Overview
+    url: https://secuvy.ai/overview/
+  - type: AWSMarketplace
+    url: https://aws.amazon.com/marketplace/seller-profile?id=edd93f3e-2b2a-43e2-89d2-f8a8eae3e392
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
