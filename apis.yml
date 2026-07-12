@@ -92,12 +92,16 @@ apis:
       - type: API Key
         description: API key-based authentication for API-driven integrations.
 common:
+  - type: DomainSecurity
+    url: security/secuvy-domain-security.yml
   - type: Website
     url: https://secuvy.ai/
   - type: Overview
     url: https://secuvy.ai/overview/
   - type: AWSMarketplace
     url: https://aws.amazon.com/marketplace/seller-profile?id=edd93f3e-2b2a-43e2-89d2-f8a8eae3e392
+  - type: Blog
+    url: https://secuvy.ai/feed/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
