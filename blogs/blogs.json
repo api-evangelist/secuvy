@@ -6,9 +6,10 @@
       "feed_url": "https://aws.amazon.com/marketplace/seller-profile?id=edd93f3e-2b2a-43e2-89d2-f8a8eae3e392",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "none",
+      "error": "parse_failed"
     }
   ],
-  "fetched": "2026-08-06T14:08:46Z",
+  "fetched": "2026-08-15T12:11:08Z",
   "post_count": 16
 }
