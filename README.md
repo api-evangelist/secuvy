@@ -1,4 +1,4 @@
-# secuvy
+# Secuvy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Secuvy — AI-driven data privacy and PII discovery
+Secuvy is an AI data filtering and data security platform that combines data discovery, classification, data security posture management, privacy automation, and AI governance into a single product. The platform automates detection and classification of sensitive data across hybrid and multi-cloud environments and prevents regulated data from leaking into AI tools, assistants, and inference pipelines. Secuvy offers more than 250 connectors covering AWS, Azure, GCP, Microsoft 365, Salesforce, Slack, Jira, ServiceNow, Snowflake, Databricks, BigQuery, MongoDB, and on-premise systems like Windows File Servers, SharePoint, and NFS. Authentication options include OAuth, SAML, and API key based integration, and developers can build custom connectors against any system with a public API. Public API reference documentation was not located during research; technical detail is provided through Secuvy's sales and onboarding teams.
+
+**Areas:** Secuvy · Data Security · Privacy · PII Discovery · DSPM · AI Governance · Classification · Connectors · Compliance · Data Discovery
+
+## Secuvy on APIs.io
+
+Everything profiled for Secuvy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/secuvy/](https://apis.io/providers/secuvy/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Secuvy Platform](https://apis.io/apis/secuvy/secuvy-platform/) — AI-driven data security and privacy platform delivering data discovery, classification, DSPM, privacy automation, and AI governance through more than 250…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Secuvy Domain Security](https://apis.io/security/secuvy/secuvy-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Secuvy Plans Pricing](https://apis.io/plans/secuvy/secuvy-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Secuvy Rate Limits](https://apis.io/rate-limits/secuvy/secuvy-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Secuvy Finops](https://apis.io/finops/secuvy/secuvy-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://secuvy.ai/)
+- [Blog](https://secuvy.ai/feed/)
+
+## API Evangelist rating
+
+**Kin Score 6.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/secuvy/](https://apis.io/providers/secuvy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Secuvy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/secuvy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
